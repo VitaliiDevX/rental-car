@@ -2,7 +2,7 @@
 
 **RentalCar** is a high-performance web application designed for searching, filtering, and booking rental vehicles. This project was developed as a technical solution for a car rental service, focusing on clean code (DRY principle), strict typing, and a seamless user experience.
 
-🔗 **Live Demo:** [rental-car-p16d.vercel.app]
+🔗 **Live Demo:** [View Live Project](https://rental-car-p16d.vercel.app)
 
 ---
 
