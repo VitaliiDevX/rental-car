@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Car Catalog | RentalCar",
     description:
       "Find the best deals on rental cars. Wide selection of brands and models available.",
-    url: "", //! add url
+    url: "rental-car-p16d.vercel.app/catalog",
     images: [
       {
         url: "/home-bg.jpg",

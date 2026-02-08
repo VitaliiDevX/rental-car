@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "RentalCar",
     description:
       "RentalCar is an app for searching, filtering, and booking your perfect rental car.",
-    url: "", //! add url
+    url: "rental-car-p16d.vercel.app",
     images: [
       {
         url: "/home-bg.jpg",
