@@ -59,16 +59,12 @@
 
 ## 📂 Project Structure
 
-```text
-src/
-├── app/              # Next.js Pages & Layouts (/, /catalog, /catalog/:id)
-├── components/       # Atomic UI components (SearchBox, CarCard, Form, etc.)
-├── store/            # Zustand store definitions (CarStore, FavoritesStore)
-├── lib/              # Axios instance and API service logic
-├── hooks/            # Custom React hooks (logic reuse)
-├── types/            # Centralized TypeScript interfaces
-└── styles/           # Global CSS and modular styling
-```
+- `app/`: Next.js Pages & Layouts (/, /catalog, /catalog/:id)
+- `components/`: Atomic UI components (SearchBox, CarCard, Form, etc.)
+- `store/`: Zustand store definitions
+- `lib/`: Axios instance and API service logic
+- `type/`: Centralized TypeScript interfaces
+- `public/`: Static assets like SVG sprites.
 
 ---
 
