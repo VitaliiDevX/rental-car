@@ -1,0 +1,24 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--color-main);
+  transition: color var(--transition);
+
+  &:hover,
+  &:focus {
+    color: var(--color-button-hover);
+  }
+}
+
+.active {
+  color: var(--color-button-hover);
+}

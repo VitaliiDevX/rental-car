@@ -1,0 +1,113 @@
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  min-width: 276px;
+  flex-basis: calc((100% - (3 * 32px)) / 4);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 268px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: var(--color-inputs);
+  margin-bottom: 16px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.favoriteBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition);
+}
+
+.favoriteBtn:hover {
+  transform: scale(1.1);
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding-right: 11px;
+  gap: 8px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--color-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.model {
+  color: var(--color-button);
+}
+
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--color-main);
+}
+
+.detailsList {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 4px;
+  margin-bottom: 32px;
+  flex-grow: 1;
+}
+
+.detailsList li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--color-gray);
+  position: relative;
+}
+
+.detailsList li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -6px;
+  width: 1px;
+  height: 16px;
+  background-color: var(--color-gray-light);
+}
+
+.learnMoreBtn {
+  border-radius: 12px;
+  padding: 12px 97px;
+  width: 100%;
+  background-color: var(--color-button);
+  transition: background-color var(--transition);
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--color-white);
+
+  &:hover,
+  &:focus {
+    background-color: var(--color-button-hover);
+  }
+}
